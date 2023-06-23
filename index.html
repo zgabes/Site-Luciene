@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolos Caseiros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barrra de Navegação -->
+
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <a href=""><img src="imagens/nav-cake.png" alt="BoloNav"></a>
+      </div>
+      <ul class="links_list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#pedidos">Pedidos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- Home page -->
+
+  <div class="home" id="home">
+    <div class="box1">
+      <h1>Venha experimentar <br> essas gostosuras!</h1>
+      <a href="https://www.instagram.com/bolos_luciene/" target="_blank"><img src="imagens/instagram.png"
+          alt="Instagram"></a>
+          <a href="https://api.whatsapp.com/send?phone=5517992423203" target="_blank"><img src="imagens/whatsapp.png"
+            alt="Whatsapp"></a>
+      <a href="https://www.facebook.com/lubatista.docarmo" target="_blank"><img src="imagens/facebook.png"
+          alt="Facebook"></a>
+    </div>
+    <div class="box2">
+      <img src="imagens/logo.png" alt="logo">
+    </div>
+  </div>
+
+  <!-- Sobre page -->
+
+  <div class="about" id="sobre">
+    <div class="about-box-1">
+      <h2>Poucas palavras sobre mim</h2>
+      <p>Sou apaixonada por criar deliciosos bolos artesanais que encantam os sentidos. Com cuidado e dedicação,
+        transformo ingredientes simples em verdadeiras obras de arte comestíveis. Cada bolo que produzo é único, feito com
+        amor e atenção aos detalhes. Meu objetivo é não apenas proporcionar uma experiência de sabor incrível, mas também
+        criar bolos visualmente deslumbrantes que deixem memórias duradouras. Deixe-me adoçar seus momentos especiais com
+        meus bolos personalizados e sobremesas irresistíveis.</p>
+      <h3>Luciene Batista do Carmo</h3>
+    </div>
+    <div class="about-box-2">
+      <img src="imagens/rounded-in-photoretrica (3).png" alt="foto Luciene" width="299" height="587">
+    </div>
+  </div>
+
+    <!-- Catálogo page -->
+
+  <div class="products" id="catalogo">
+    <h2>Catálogo</h2>
+  
+    <div class="grid1">
+      <div class="product">
+        <img src="imagens/round-chocolate.png" alt="Bolo de Chocolate">
+        <h3>Bolo de chocolate 1kg</h3>
+        <p>R$40</p>
+      </div>
+      <div class="product">
+        <img src="imagens/round-ninho-morando1.png" alt="Bolo de ninho com morango">
+        <h3>Bolo de ninho e morango</h3>
+        <p>R$40</p>
+      </div>
+      <div class="product">
+        <img src="imagens/round-brigadeiro.png" alt="Brigadeiro">
+        <h3>Brigadeiro 100uni</h3>
+        <p>R$40</p>
+      </div>
+    </div>
+  
+    <div class="grid2">
+      <div class="product">
+        <img src="imagens/round-palmeira.png" alt="Bolo do palmeiras">
+        <h3>Bolo de ninho 1kg<br>(personalizado Palmeiras)</h3>
+        <p>R$40</p>
+      </div>
+      <div class="product">
+        <img src="imagens/round-minie.png" alt="Bolo da minie">
+        <h3>Bolo de ninho 1kg <br> (personalizado Minie)</h3>
+        <p>R$40</p>
+      </div>
+      <div class="product">
+        <img src="imagens/round-leite-ninho.png" alt="Brigadeiro de leite ninho">
+        <h3>Brigadeiro de leite ninho <br> 100 uni</h3>
+        <p>R$40</p>
+      </div>
+    </div>
+  
+  </div>
+
+  <!-- Pedidos page -->
+
+<div class="pedidos" id="pedidos">
+
+
+  <div class="form_div">
+    <div className="form_header">
+      <div className="title">
+          <h1>Faça seu pedido</h1>
+      </div>
+    </div>
+      <form action="#" class="form_group"> 
+            <div class="input_box">
+              <label>
+                  <span>Nome</span>
+                  <input 
+                      id="nome"
+                      type="text"
+                      name="nome"
+                      placeholder="Digite seu nome"
+                      />
+              </label>
+            </div>
+            <div class="input_box">
+              <label>
+                  <span>Sobrenome</span>
+                  <input 
+                      id="sobrenome"
+                      type="text"
+                      name="sobrenome"
+                      placeholder="Digite seu sobrenome"
+                      />
+              </label>
+            </div>
+            <div class="input_box">
+              <label>
+                  <span>Email</span>
+                  <input 
+                      id="email"
+                      type="email"
+                      name="email"
+                      placeholder="exemplo@gmail.com"
+                      />
+              </label>
+            </div>
+            <div class="input_box">
+              <label>
+                  <span>Descrição pedido</span>
+                  <textarea 
+                  id="pedido"
+                  name="pedido"
+                  placeholder="Digite aqui seu pedido personalizado..."></textarea>
+              </label>
+            </div>
+      </form>  
+  </div>
+    <div class="div-img"> 
+      <img src="imagens/logo.png" alt="logo">
+    </div> 
+
+
+</div>
+
+  <footer>
+    <p>&copy; Bolos Luciene.</p>
+  </footer>
+</body>
+</html>
