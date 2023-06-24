@@ -32,11 +32,11 @@
   <div class="home" id="home">
     <div class="box1">
       <h1>Venha experimentar <br> essas gostosuras!</h1>
-      <a href="https://www.instagram.com/bolos_luciene/" target="_blank"><img src="imagens/instagram.png"
+      <a class="itens-home" href="https://www.instagram.com/bolos_luciene/" target="_blank"><img src="imagens/instagram.png"
           alt="Instagram"></a>
-          <a href="https://api.whatsapp.com/send?phone=5517992423203" target="_blank"><img src="imagens/whatsapp.png"
+          <a class="itens-home" href="https://api.whatsapp.com/send?phone=5517992423203" target="_blank"><img src="imagens/whatsapp.png"
             alt="Whatsapp"></a>
-      <a href="https://www.facebook.com/lubatista.docarmo" target="_blank"><img src="imagens/facebook.png"
+      <a class="itens-home" href="https://www.facebook.com/lubatista.docarmo" target="_blank"><img src="imagens/facebook.png"
           alt="Facebook"></a>
     </div>
     <div class="box2">
@@ -108,62 +108,45 @@
 
 <div class="pedidos" id="pedidos">
 
-
   <div class="form_div">
     <div className="form_header">
       <div className="title">
-          <h1>Faça seu pedido</h1>
+        <h1>Faça seu pedido</h1>
       </div>
     </div>
-      <form action="#" class="form_group"> 
-            <div class="input_box">
-              <label>
-                  <span>Nome</span>
-                  <input 
-                      id="nome"
-                      type="text"
-                      name="nome"
-                      placeholder="Digite seu nome"
-                      />
-              </label>
-            </div>
-            <div class="input_box">
-              <label>
-                  <span>Sobrenome</span>
-                  <input 
-                      id="sobrenome"
-                      type="text"
-                      name="sobrenome"
-                      placeholder="Digite seu sobrenome"
-                      />
-              </label>
-            </div>
-            <div class="input_box">
-              <label>
-                  <span>Email</span>
-                  <input 
-                      id="email"
-                      type="email"
-                      name="email"
-                      placeholder="exemplo@gmail.com"
-                      />
-              </label>
-            </div>
-            <div class="input_box">
-              <label>
-                  <span>Descrição pedido</span>
-                  <textarea 
-                  id="pedido"
-                  name="pedido"
-                  placeholder="Digite aqui seu pedido personalizado..."></textarea>
-              </label>
-            </div>
-      </form>  
+    <form action="mailto:luciene_luly@hotmail.com" method="post" enctype="text/plain" class="form_group">
+      <div class="input_box">
+        <label>
+          <span>Nome</span>
+          <input id="nome" type="text" name="nome" placeholder="Digite seu nome" />
+        </label>
+      </div>
+      <div class="input_box">
+        <label>
+          <span>Sobrenome</span>
+          <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" />
+        </label>
+      </div>
+      <div class="input_box">
+        <label>
+          <span>Email</span>
+          <input id="email" type="email" name="email" placeholder="exemplo@gmail.com" />
+        </label>
+      </div>
+      <div class="input_box">
+        <label>
+          <span>Descrição pedido</span>
+          <textarea id="pedido" name="pedido" placeholder="Escreva seu pedido..."></textarea>
+        </label>
+      </div>
   </div>
-    <div class="div-img"> 
-      <img src="imagens/logo.png" alt="logo">
-    </div> 
-
+  <div class="input-email">
+    <input type="submit" value="Enviar">
+  </div>
+  </form>
+  <div class="div-img">
+    <img src="imagens/logo.png" alt="logo">
+  </div>
 
 </div>
 
